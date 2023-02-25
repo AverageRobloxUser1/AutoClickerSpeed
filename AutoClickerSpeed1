@@ -1,0 +1,10 @@
+while ( true )
+do
+wait(0.001)
+local args = {
+    [1] = 1
+}
+
+workspace:WaitForChild("f6be95f872182e13b125ae9c412e65f4"):InvokeServer(unpack(args))
+
+end
